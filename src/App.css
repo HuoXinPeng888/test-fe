@@ -1,0 +1,49 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.grid {
+  border: 1px solid #333;
+  background-color: #f0f0f0;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.snake {
+  background-color: #4CAF50;
+}
+
+.food {
+  background-color: #f44336;
+}
+
+.game-over {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 2px solid #333;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
